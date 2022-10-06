@@ -1,0 +1,113 @@
+label {
+    padding: 8px;
+    display: inline-block;
+}
+
+.container {
+    border: 2px solid rgb(252, 247, 247);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.head {
+    background-color: rgb(53, 0, 102);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select,textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(53, 0, 102);
+}
+
+h4 {
+    text-align: left;
+    color: rgb(53, 0, 102);
+}
+
+.col-10 {
+    float: right;
+    width: 10%;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-20-alt {
+    float: right;
+    width: 20%;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.col-35 {
+    float: right;
+    width: 35%;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.col-40 {
+    float: right;
+    width: 40%;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.col-60 {
+    float: right;
+    width: 60%;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.col-70 {
+    float: right;
+    width: 70%;
+    margin-top: 1px;
+    margin-right: 4px;
+}
+
+.clear {
+    clear: both;
+}
+
+.sub{
+    font-size: smaller;
+    margin:0%
+}
+
+input[type=file] {
+    padding-top: 10px;
+}
+
+.button {
+    background-color: rgb(53, 0, 102);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
