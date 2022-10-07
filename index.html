@@ -15,241 +15,193 @@
             <h2>Job Application</h2>
         </header>
         
-        <!-- subheading1 -->
-        <h4>Personal Information</h4>
-
-        <form>
-            <!-- first and last name form -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Name</label>
-                </div>
-                <div class="col-35">
-                    <input type="text">
-                </div>
-                <div class="col-35">
-                    <input type="text">
-                </div>
-            </div>
-
-            <!-- subscripts -->
-            <div class="col-35 sub">
-                <span>Last Name</span>
-            </div>
-            <div class="col-35 sub">
-                <span>First Name</span>
-            </div>
-
-            <!-- space -->
-            <div class="clear">&nbsp;</div>
-
-            <!-- email form -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Email</label>
-                </div>
-                <div class="col-70">
-                    <input type="text" placeholder="user@example.com">
-                </div>
-            </div>
-
-            <!-- education form -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Education</label>
-                </div>
-                <div class="col-70">
-                    <select>
-                        <option>Please Choose</option>
-                    </select>
-                </div>
-            </div>
-
-            <!-- resume form -->
-            <div class="row">
-                <div class="col-20">
-                    <label for="subject">Resume</label>
-                </div>
-                <div class="col-70">
-                    <input type="file" id="myfile" name="myfile" class="col-80">
-                </div>
-            </div>
-
-            <!-- address form -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Address</label>
-                </div>
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
-
-            <!-- subscripts -->
-            <div class="col-35 sub">
-                <span>Address 1</span>
-            </div>
-
-            <div class="row">
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
+        <div>
+            <!-- subheading1 -->
+            <h4>Personal Information</h4>
             
-            <!-- subscripts -->
-            <div class="col-35 sub">
-                <span>Address 2</span>
-            </div>
-
-            <!-- select country form -->
-            <div class="row">
-                <div class="col-70">
-                    <select>
-                        <option>Select a Country</option>
-                    </select>
+            <form>
+                <!-- first and last name form -->
+                <div class="row">
+                    <label class="col-padding col-20">Name</label>
+                    <div class="col-padding col-35">
+                        <input type="text">
+                        <span class="sub">Last Name</span>
+                        
+                    </div>
+                    <div class="col-padding col-35">
+                        <input type="text">
+                        <span class="sub">First Name</span>
+                    </div>
                 </div>
-            </div>
-
-            <!-- subscripts -->
-            <div class="col-35 sub">
-                <span>Country</span>
-            </div>
-
-            <!-- space -->
-            <div class="clear">&nbsp;</div>
-
-            <!-- triple input fields -->
-            <div class="row">
-                <div class="col-20-alt">
-                    <input type="text">
+            
+                <!-- space -->
+                <div class="clear">&nbsp;</div>
+            
+                <!-- email form -->
+                <div class="row">
+                    <label class="col-padding col-20">Email</label>
+                    <div class="col-padding col-70">
+                        <input type="text" placeholder="user@example.com">
+                    </div>
                 </div>
-                <div class="col-10">
-                    <input type="text">
+                
+                <!-- education form -->
+                <div class="row">
+                    <label class="col-padding col-20">Education</label>
+                    <div class="col-padding col-70">
+                        <select><option>Please Choose</option></select>
+                    </div>
                 </div>
-                <div class="col-40">
-                    <input type="text">
+            
+                <!-- resume form -->
+                <div class="row">
+                    <label class="col-padding col-20">Resume</label>
+                    <div class="col-padding col-70">
+                        <input type="file" id="myfile" name="myfile">
+                    </div>
                 </div>
-            </div>
-
-            <!-- subscripts -->
-            <div class="col-20-alt sub">
-                <span>Zip Code</span>
-            </div>
-            <div class="col-10 sub">
-                <span>State</span>
-            </div>
-            <div class="col-40 sub">
-                <span>City</span>
-            </div>
-
-            <!-- space -->
-            <div class="clear">&nbsp;</div>
-
-            <!-- phone number field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Phone Number</label>
+            
+                <!-- address form -->
+                <div class="row">
+                    <label class="col-padding col-20">Address</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                        <span class="sub">Address 1</span>
+                    </div>
                 </div>
-                <div class="col-60">
-                    <input type="text">
+            
+                <div class="row">
+                    <div class="col-padding col-70">
+                        <input type="text">
+                        <span class="sub">Address 2</span>
+                    </div>
                 </div>
-                <div class="col-10">
-                    <input type="text">
+            
+                <!-- select country form -->
+                <div class="row">
+                    <div class="col-padding col-70">
+                        <select><option>Select a Country</option></select>
+                        <span class="sub">Country</span>
+                    </div>
                 </div>
-            </div>
 
-            <!-- hobbies field -->
-            <p>What are your hobbies ?</p>
-
-            <div class="row">
+                <!-- space -->
+                <div class="clear">&nbsp;</div>
+            
+                <!-- triple input fields -->
                 <div>
-                    <input type="text">
+                    <div class="row">
+                        <div class="col-padding col-20-alt">
+                            <input type="text">
+                            <span class="sub">Zip Code</span>
+                        </div>
+                        <div class="col-padding col-10">
+                            <input type="text">
+                            <span class="sub">State</span>
+                        </div>
+                        <div class="col-padding col-40">
+                            <input type="text">
+                            <span class="sub">City</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
+               
+                <!-- space -->
+                <div class="clear">&nbsp;</div>
+            
+                <!-- phone number field -->
+                <div class="row">
+                    <label class="col-padding col-20">Phone Number</label>
+                    <div class="col-padding col-60">
+                        <input type="text">
+                    </div>
+                    <div class="col-padding col-10">
+                        <input type="text">
+                    </div>
+                </div>
+            
+                <div>
+                    <!-- hobbies field -->
+                    <p>What are your hobbies ?</p>
+                    
+                    <div class="row">
+                        <input type="text">
+                    </div>
+                </div>
+            </form>   
+        </div>
 
-
+        <div>
             <!-- subheading2 -->
             <h4>Previous/Current Empolyment Details</h4>
-
-            <!-- company name field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Company Name</label>
-                </div>
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
-
-            <!-- job title field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Job Title</label>
-                </div>
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
-
-            <!-- long field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>How long were you there ?</label>
-                </div>
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
-
-            <!-- subheading3 -->
-            <h4>Reference #1</h4>
             
-            <!-- ref name field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Name</label>
+            <form>
+                <!-- company name field -->
+                <div class="row">
+                    <label class="col-padding col-20">Company Name</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
                 </div>
-                <div class="col-70">
-                    <input type="text">
+                
+                <!-- job title field -->
+                <div class="row">
+                    <label class="col-padding col-20">Job Title</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
                 </div>
-            </div>
-            <!-- ref phone number field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Phone</label>
+                
+                <!-- long field -->
+                <div class="row">
+                    <label class="col-padding col-20">How long were you here ?</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
                 </div>
-                <div class="col-70">
-                    <input type="text">
+                
+                <!-- subheading3 -->
+                <h4>Reference #1</h4>
+                
+                <!-- ref name field -->
+                <div class="row">
+                    <label class="col-padding col-20">Name</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
                 </div>
-            </div>
-
-            <!-- subheading4 -->
-            <h4>Reference #2</h4>
+                <!-- ref phone number field -->
+                <div class="row">
+                    <label class="col-padding col-20">Phone</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
+                </div>
+                
+                <!-- subheading4 -->
+                <h4>Reference #2</h4>
+                
+                <!-- ref name field -->
+                <div class="row">
+                    <label class="col-padding col-20">Name</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
+                </div>
+                <!-- ref phone number field -->
+                <div class="row">
+                    <label class="col-padding col-20">Phone</label>
+                    <div class="col-padding col-70">
+                        <input type="text">
+                    </div>
+                </div>
+            </form>
             
-            <!-- ref name field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Name</label>
-                </div>
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
-            <!-- ref phone number field -->
-            <div class="row">
-                <div class="col-20">
-                    <label>Phone</label>
-                </div>
-                <div class="col-70">
-                    <input type="text">
-                </div>
-            </div>
-
-            <div style="text-align: center">
+            <div class="btn">
                 <button class="button">Apply</button>
             </div>
             
-        </form>
+        </div>     
     </div>
 </body>
 </html>
